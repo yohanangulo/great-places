@@ -53,7 +53,7 @@ class _AddPlaceScreenState extends ConsumerState<AddPlaceScreen> {
             TextField(
               decoration: const InputDecoration(labelText: 'Title'),
               controller: _titleController,
-              style: TextStyle(color: Theme.of(context).colorScheme.onBackground),
+              style: TextStyle(color: Theme.of(context).colorScheme.onSurface),
             ),
             const SizedBox(height: 10),
             ImageInput(onPickImage: _onPickImage),
