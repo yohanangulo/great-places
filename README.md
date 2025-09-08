@@ -64,7 +64,7 @@ dependencies:
 
 | Places List                                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------- |
-| <img width="275" src="https://github.com/user-attachments/assets/c11b8211-4ff9-494c-a87d-5969ade317af" alt="Login Screen" /> |
+| <img width="275" src="https://github.com/user-attachments/assets/e170ca70-b6a5-4c08-ba28-001996558de7" alt="Login Screen" /> |
 
 </div>
 
