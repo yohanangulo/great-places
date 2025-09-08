@@ -23,6 +23,30 @@ A comprehensive Flutter mobile application for discovering, managing, and sharin
 
 ## Architecture
 
+### App Flow Diagram
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   UI Screens    │    │  State Manager  │    │   Data Layer    │
+│                 │    │                 │    │                 │
+│ • Places List   │◄──►│ Riverpod        │◄──►│ SQLite DB       │
+│ • Add Place     │    │ Providers       │    │ File Storage    │
+│ • Place Detail  │    │                 │    │                 │
+│ • Map View      │    │                 │    │                 │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   UI Widgets    │    │     Models      │    │ External APIs   │
+│                 │    │                 │    │                 │
+│ • Image Input   │    │ • Place         │    │ • Google Maps   │
+│ • Location Input│    │ • PlaceLocation │    │ • Camera/GPS    │
+│ • Places List   │    │                 │    │ • Geocoding     │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
+
+### Project Structure
+
 ```
 lib/
 ├── models/          # Data models and entities
