@@ -58,13 +58,13 @@ dependencies:
   uuid: ^4.4.0 # Unique identifiers
 ```
 
-## Demo
+## Screenshots
 
 <div align="center">
 
-| Places List                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| <img width="275" src="https://github.com/user-attachments/assets/e170ca70-b6a5-4c08-ba28-001996558de7" alt="Login Screen" /> |
+| Add New place screen                                                                                      | Demo                                                                                                      | Places List                                                                                              |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| <img width="275" src="https://github.com/user-attachments/assets/22f83b67-2674-44e0-8477-ca24b1a63649" /> | <img width="275" src="https://github.com/user-attachments/assets/e170ca70-b6a5-4c08-ba28-001996558de7" /> | <img width="275" src="https://github.com/user-attachments/assets/01660a47-19a7-4b43-8a7e-309211138141" / |
 
 </div>
 
