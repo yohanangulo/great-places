@@ -103,7 +103,7 @@ dependencies:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/great-places.git
+   git clone https://github.com/yohanangulo/great-places.git
    cd great-places
    ```
 
