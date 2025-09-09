@@ -6,20 +6,18 @@ A comprehensive Flutter mobile application for discovering, managing, and sharin
 
 ### Core Functionality
 
-- **Location Discovery**: Add and categorize places with detailed information
-- **Photo Integration**: Capture and store photos using device camera or gallery
-- **Location Services**: Real-time GPS coordinates and reverse geocoding
+- **Location Discovery**: Add places with detailed information
+- **Photo Integration**: Capture and store photos using device camera
+- **Location Services**: GPS coordinates and reverse geocoding
 - **Interactive Maps**: Google Maps integration with custom markers
 - **Offline Storage**: SQLite database for reliable local data persistence
 
 ### Technical Highlights
 
 - **State Management**: Flutter Riverpod for reactive state management
-- **Location Services**: GPS tracking with location permissions handling
+- **Location Services**: GPS with location permissions handling
 - **Database**: SQLite with custom data models and relationships
-- **Image Processing**: Camera integration with file system storage
 - **Maps Integration**: Google Maps Flutter plugin with custom UI
-- **Responsive Design**: Material Design 3 with custom theming
 
 ## Architecture
 
@@ -125,14 +123,6 @@ dependencies:
    flutter run
    ```
 
-## Development Features
-
-- **Clean Architecture**: Separation of concerns with clear data flow
-- **Error Handling**: Comprehensive error states and user feedback
-- **Performance**: Optimized database queries and image handling
-- **Testing**: Widget tests included in test directory
-- **Cross-Platform**: iOS and Android support with platform-specific optimizations
-
 ## Project Structure
 
 The application follows Flutter best practices with a modular architecture:
@@ -151,7 +141,6 @@ The application follows Flutter best practices with a modular architecture:
 - Google Maps SDK integration
 - Camera and location services implementation
 - Material Design implementation
-- Clean code architecture and organization
 
 ---
 
